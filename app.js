@@ -25,7 +25,7 @@ class Calc {
         if (this.previousOperand !== '') {
             this.compute()
         }
-        if (this.operation !== undefined) {
+        if (this.operation !== undefined && this.currentOperand === '') {
          this.operation = operation   
         }
         this.operation = operation
